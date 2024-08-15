@@ -1,0 +1,51 @@
+{
+  "id": "a82de148-c0e0-4d4f-bc79-702bfd05acdc",
+  "name": "YVS API",
+  "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+  "version": "1.0.0.3",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "ffe5252a-2452-47fe-8de6-867e70711cf8",
+      "name": "EST-Interface-PDA",
+      "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "c80e25ac-8f80-4d65-85b9-211b292609b8",
+      "name": "Thai Localized",
+      "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+      "version": "24.0.1.11"
+    },
+    {
+      "id": "d9057031-9822-4a54-ab64-d87e41b0ffd4",
+      "name": "EST-Promotion",
+      "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

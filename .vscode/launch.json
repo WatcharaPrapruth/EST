@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        // {
+        //     "name": "Attach to online sandbox",
+        //     "type": "al",
+        //     "request": "attach",
+        //     "environmentType": "Sandbox",
+        //     "environmentName": "UAT",
+        //     "tenant": "31a31702-d725-4976-97b2-270ced0054c3",
+        //     "breakOnError": true,
+        //     "breakOnRecordWrite": false,
+        //     "enableSqlInformationDebugger": true,
+        //     "enableLongRunningSqlStatements": true,
+        //     "longRunningSqlStatementsThreshold": 500,
+        //     "numberOfSqlStatements": 10,
+        //     "breakOnNext": "WebServiceClient"
+        // },
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "UAT",
+            "tenant": "31a31702-d725-4976-97b2-270ced0054c3",
+            "startupObjectId": 142,
+            //"startupObjectId": 9305,
+            //"startupObjectId": 143,
+            //"startupObjectId": 50103,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
